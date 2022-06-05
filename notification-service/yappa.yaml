@@ -1,0 +1,31 @@
+project_name: notification service
+project_slug: notification-service
+description: null
+requirements_file: requirements.txt
+bucket: fastapi-example-dec4b228
+application_type: asgi
+entrypoint: app.app
+django_settings_module: null
+folder_id: b1go1iodf6onfr9bshtu
+gw_config: yappa_gw.yaml
+runtime: python39
+memory_limit: 128MB
+service_account_names:
+  creator: yappa-creator-account-dev-environment
+  function_actor: null
+timeout: 1
+excluded_paths:
+- venv
+- .git
+- .idea
+- .DS_Store
+- .yc
+environment:
+  DB_PORT: '6432'
+  DB_USER: pgadmin
+  DB_NAME: akf40047vog1mrvef7d5
+  DB_HOST: akf40047vog1mrvef7d5.postgresql-proxy.serverless.yandexcloud.net
+  LOCKBOX_SA_KEY_ID: e6qccg0e23c1tkenlcjp
+named_service_accounts: {}
+service_account_id: ajevbc1n9opva3e2iurs
+is_public: true
