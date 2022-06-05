@@ -1,6 +1,6 @@
 # FastAPI deployment
 
-- app.py - basic FastAPI application with two routes
+- app.py - FastAPI application with routes
 - yappa.yaml - generated Yappa config for this application
 
 to deploy it to yandex cloud just run:
